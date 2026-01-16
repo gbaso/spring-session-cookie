@@ -1,0 +1,10 @@
+server:
+  servlet:
+    session:
+      cookie:
+        same-site: none
+        secure: true
+
+spring:
+  application:
+    name: spring-session-cookie
